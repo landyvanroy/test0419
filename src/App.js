@@ -1,8 +1,9 @@
+import { Button } from 'antd-mobile'
 
 function App() {
   return (
-    <h1>Hello react
-    </h1>
+    <Button>Hello react
+    </Button>
   );
 }
 
