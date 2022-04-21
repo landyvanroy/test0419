@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd-mobile": "^5.10.2",
     "babel": "^6.23.0",
+    "pubsub-js": "^1.9.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router": "^6.3.0",
