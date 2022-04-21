@@ -1,15 +1,12 @@
-import { Routes, Route, Navigate} from 'react-router-dom';
-import Login from './pages/login'
-import User from './pages/user'
+import { useRoutes} from 'react-router-dom';
+import routes from './config/routes';
+import MyTabBar from './components/my_tab_bar';
 
 function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/user" element={<User/>}/>
-        <Route path="/" element={<Navigate to="/user"/>}/>
-      </Routes>
+      <MyTabBar/>
+      {useRoutes(routes)}
     </div>
   );
 }

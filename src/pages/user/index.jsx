@@ -5,8 +5,13 @@ export default class User extends Component {
     render() {
         return (
             <div>
-                <Button>I'm user page</Button> 
+                <div>I'm user page</div> 
+                <Button onClick={this.logout}>log out</Button> 
             </div>
         )
+    }
+
+    logout = () =>{
+        console.log("logout")
     }
 }
