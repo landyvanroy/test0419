@@ -1,0 +1,11 @@
+.code-group {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.code, .phone {
+    border: 1px solid #eee;
+    padding: 2px 8px;
+}
+.code-wrap {
+   text-align: right; 
+}
